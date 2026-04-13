@@ -61,7 +61,7 @@ function formatarId(x: string | number): string {
 // console.log(formatarId(id));
 
 //Exercício 8
-interface Aluno {
+type Aluno = {
     nome: string;
     idade: number;
 }
@@ -76,7 +76,7 @@ const novoAluno = {nome: "Cléber", idade: 15}
 // console.log(mostrarAluno(novoAluno));
 
 //Exercício 10
-interface Produto{
+type Produto = {
     nome:string;
     preco: number;
     emPromocao: boolean;
